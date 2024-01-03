@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: 'MasonClouds'
   TF_API_TOKEN: '${{ secrets.TF_API_TOKEN }}'
-  TF_WORKSPACE: 'tc-poc-api-wf-dev'
+  TF_WORKSPACE: 'tc-poc-api-wf-shared-dev'
   CONFIG_DIRECTORY: './'
 
 jobs:
